@@ -1,1 +1,2 @@
-This is a simple web page, with my contact links.
+# Front-end Practice #1
+Contact Links
