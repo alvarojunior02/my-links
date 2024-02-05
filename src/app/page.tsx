@@ -8,19 +8,26 @@ import InstagramIcon from "../assets/icons/instagram.png"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-white">
-      <div id="profile" className="flex flex-col items-center">
+    <main className="m-0 p-0 h-screen max-h-screen w-screen flex flex-col items-center justify-center overflow-x-hidden bg-cyan-800">
+      <div className="container w-96 h-28 flex flex-row items-center justify-center bg-white rounded p-4 shadow-xl">
         <Image
           className="rounded-full"
           src={Profile}
-          height={150}
-          width={150}
-          alt="Profile Avatar"
+          width={80}
+          height={80}
+          alt="Foto de Perfil"
         />
-        <h1 className="mt-8 text-xl font-bold">Álvaro Carneiro Júnior</h1>
+        <div className="flex flex-col items-start">
+          <p className="ml-2 text-lg font-bold">Álvaro Júnior</p>
+          <p className="ml-2 text-sm">Full Stack Developer</p>
+        </div>
       </div>
-      <div id="links" className="flex flex-col items-center">
-        <a href="https://www.linkedin.com/in/alvaro-junior-831299183/" target="_blank">
+      <div className="container w-96 mt-2 flex flex-col items-center bg-white rounded p-4 shadow-xl">
+        <a
+          className="button w-80"
+          href="https://www.linkedin.com/in/alvaro-junior-831299183/"
+          target="_blank"
+        >
           <div className="w-1/5">
             <Image
               className=""
@@ -34,7 +41,11 @@ export default function Home() {
             <p className="align-middle">LinkedIn</p>
           </div>
         </a>
-        <a href="mailto:alvarojunior02.dev@gmail.com" target="_blank">
+        <a
+          className="button w-80"
+          href="mailto:alvarojunior02.dev@gmail.com"
+          target="_blank"
+        >
           <div className="w-1/5">
             <Image
               className=""
@@ -48,7 +59,11 @@ export default function Home() {
             <p className="align-middle">E-mail</p>
           </div>
         </a>
-        <a href="https://www.instagram.com/ajunior_c/" target="_blank">
+        <a
+          className="button w-80"
+          href="https://www.instagram.com/ajunior_c/"
+          target="_blank"
+        >
           <div className="w-1/5">
             <Image
               className=""
