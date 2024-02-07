@@ -61,7 +61,7 @@ export default function Home() {
         </a>
         <a
           className="button w-80"
-          href="https://www.instagram.com/ajunior_c/"
+          href="https://www.instagram.com/alvarojunior.dev/"
           target="_blank"
         >
           <div className="w-1/5">
